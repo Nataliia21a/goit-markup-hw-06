@@ -183,15 +183,21 @@ img {
 h1 {
   color: #fff;
   text-align: center;
-  font-size: 56px;
-  line-height: 1.07;
+  /* font-size: 56px; */
+  font-size: 36px;
+  /* line-height: 1.07; */
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  width: 288px;
+  height: 160px;
 }
 
 .hero {
   background: #2e2f42;
-  padding: 188px 0;
-  max-width: 1440px;
+  padding: 72px 0;
+  max-width: 320px;
+  /* padding: 188px 0; 
+  max-width: 1440px; */
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -218,7 +224,8 @@ h1 {
 .container-hero {
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 72px;
+  /* gap: 48px; */
 }
 
 .hero-button {
