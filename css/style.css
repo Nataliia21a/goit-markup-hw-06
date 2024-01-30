@@ -58,6 +58,7 @@ img {
 /* -----------HEADER--------------*/
 
 .header {
+  min-width: 320px;
   border-bottom: 1px solid #e7e9fc;
   background: #fff;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -68,6 +69,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 
 .navigation {
@@ -205,9 +207,9 @@ h1 {
 .hero {
   background: #2e2f42;
   padding: 72px 0;
-  max-width: 320px;
-  /* padding: 188px 0; 
-  max-width: 1440px; */
+  min-width: 320px;
+  /* padding: 188px 0; */
+  max-width: 1440px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -218,7 +220,6 @@ h1 {
   background-size: cover;
   width: 100%;
 }
-
 @media screen and (min-device-pixel-ratio: 2),
   (min-resolution: 2dppx),
   (min-resolution: 192dpi) {
@@ -232,9 +233,11 @@ h1 {
 }
 
 .container-hero {
+  max-width: 767px;
   display: flex;
   flex-direction: column;
   gap: 72px;
+  margin: 0 auto;
   /* gap: 48px; */
 }
 
@@ -703,7 +706,7 @@ h1 {
 }
 
 .mobile-menu {
-  width: 320px;
+  min-width: 320px;
   min-height: 640px;
   background-color: #fff;
   padding: 24px 24px 40px 16px;
